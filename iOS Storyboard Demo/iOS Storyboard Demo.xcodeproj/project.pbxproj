@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2A9F04DA1DA6751E007AA9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F04D91DA6751E007AA9C6 /* AppDelegate.swift */; };
-		2A9F04DC1DA6751E007AA9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F04DB1DA6751E007AA9C6 /* ViewController.swift */; };
+		2A9F04DC1DA6751E007AA9C6 /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F04DB1DA6751E007AA9C6 /* AppointmentController.swift */; };
 		2A9F04DF1DA6751E007AA9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F04DD1DA6751E007AA9C6 /* Main.storyboard */; };
 		2A9F04E11DA6751E007AA9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F04E01DA6751E007AA9C6 /* Assets.xcassets */; };
 		2A9F04E41DA6751E007AA9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F04E21DA6751E007AA9C6 /* LaunchScreen.storyboard */; };
 		2A9F04EF1DA6751E007AA9C6 /* iOS_Storyboard_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F04EE1DA6751E007AA9C6 /* iOS_Storyboard_DemoTests.swift */; };
 		2A9F04FA1DA6751E007AA9C6 /* iOS_Storyboard_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F04F91DA6751E007AA9C6 /* iOS_Storyboard_DemoUITests.swift */; };
+		2A9F05081DA68615007AA9C6 /* AppointmentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F05071DA68615007AA9C6 /* AppointmentsModel.swift */; };
+		2A9F050A1DA68E36007AA9C6 /* AppointmentDestory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F05091DA68E36007AA9C6 /* AppointmentDestory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2A9F04D61DA6751E007AA9C6 /* iOS Storyboard Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Storyboard Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9F04D91DA6751E007AA9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A9F04DB1DA6751E007AA9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A9F04DB1DA6751E007AA9C6 /* AppointmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
 		2A9F04DE1DA6751E007AA9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A9F04E01DA6751E007AA9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9F04E31DA6751E007AA9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		2A9F04F51DA6751E007AA9C6 /* iOS Storyboard DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Storyboard DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9F04F91DA6751E007AA9C6 /* iOS_Storyboard_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Storyboard_DemoUITests.swift; sourceTree = "<group>"; };
 		2A9F04FB1DA6751E007AA9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9F05071DA68615007AA9C6 /* AppointmentsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsModel.swift; sourceTree = "<group>"; };
+		2A9F05091DA68E36007AA9C6 /* AppointmentDestory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDestory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				2A9F04D91DA6751E007AA9C6 /* AppDelegate.swift */,
-				2A9F04DB1DA6751E007AA9C6 /* ViewController.swift */,
+				2A9F04DB1DA6751E007AA9C6 /* AppointmentController.swift */,
 				2A9F04DD1DA6751E007AA9C6 /* Main.storyboard */,
 				2A9F04E01DA6751E007AA9C6 /* Assets.xcassets */,
 				2A9F04E21DA6751E007AA9C6 /* LaunchScreen.storyboard */,
 				2A9F04E51DA6751E007AA9C6 /* Info.plist */,
+				2A9F05071DA68615007AA9C6 /* AppointmentsModel.swift */,
+				2A9F05091DA68E36007AA9C6 /* AppointmentDestory.swift */,
 			);
 			path = "iOS Storyboard Demo";
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9F04DC1DA6751E007AA9C6 /* ViewController.swift in Sources */,
+				2A9F050A1DA68E36007AA9C6 /* AppointmentDestory.swift in Sources */,
+				2A9F05081DA68615007AA9C6 /* AppointmentsModel.swift in Sources */,
+				2A9F04DC1DA6751E007AA9C6 /* AppointmentController.swift in Sources */,
 				2A9F04DA1DA6751E007AA9C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
